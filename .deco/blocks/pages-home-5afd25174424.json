@@ -1,42 +1,136 @@
 {
-    "name": "Home",
-    "path": "/",
-    "sections": [
-      {
-        "__resolveType": "Header"
+  "name": "Home",
+  "path": "/",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Header.tsx",
+      "navigation": {
+        "links": [],
+        "buttons": []
       },
-      {
-        "__resolveType": "site/sections/Hero.tsx",
-        "title": "<p>Click here to tweak this text however you want.</p>",
-        "cta": [],
-        "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
-      },
-      {
-        "__resolveType": "site/sections/Logos.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx",
-        "placement": "right"
-      },
-      {
-        "__resolveType": "site/sections/BlogPosts.tsx"
-      },
-      {
-        "__resolveType": "site/sections/Testimonials.tsx",
-        "arrows": true
-      },
-      {
-        "__resolveType": "site/sections/Faq.tsx"
-      },
-      {
-        "__resolveType": "Footer"
+      "logo": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11593/d499cf5d-3446-4f8f-bbd6-4b8002b31a14"
       }
-    ],
-    "__resolveType": "website/pages/Page.tsx",
-    "seo": {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Hero.tsx",
+      "title": "<p>Viit Students Daily Blog Section </p>",
+      "cta": [],
+      "image": "https://www.icegif.com/wp-content/uploads/2024/01/icegif-67.gif",
+      "description": "Welcome to our daily section, where we bring you a dose of inspiration, knowledge, and insights to enrich your student journey. Whether you're looking for study tips, career advice, book reviews, or reflections on student life, our daily posts are designed to ignite your curiosity and support your academic and personal growth."
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "description": "Study Tips and Techniques: Discover effective study strategies tailored to help you succeed in your academic pursuits. From exam preparation to time management tips, we've got you covered.\n\nCareer Insights: Explore career paths, industry trends, and valuable advice to prepare you for your future professional endeavors. Learn from experts and discover opportunities to kickstart your career journey.\n\nBook Reviews and Recommendations: Dive into captivating book reviews that cover a wide range of genres and topics. Find your next literary adventure or gain insights from thought-provoking reads recommended by fellow students.",
+      "placement": "left",
+      "tagline": "Review of books",
+      "title": "Benefits students can get from us ",
+      "image": "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExODNtbXM4NGxkdmVpbGN3OXBndTV6aTJtdm5yYXR6MmxyYXRmeGV4cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QAD2H9JRnUrR7YkTQ2/giphy.webp"
+    },
+    {
+      "__resolveType": "site/sections/BlogPosts.tsx",
+      "title": "Some the Top Books our Blogs Society offers",
+      "description": "Become a daily member and get it for free ",
+      "posts": [
+        {
+          "tags": [],
+          "title": "To Kill a Mockingbird",
+          "author": "Harper lee",
+          "excerpt": "Set in the Deep South during the 1930s, this novel follows Scout Finch, a young girl whose father, lawyer Atticus Finch, defends a black man accused of raping a white woman. Through Scout's eyes, the novel explores themes of racial injustice, moral growth, and empathy.",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11593/8eddb186-7cc6-4177-8173-b9d98c26d4ca",
+          "date": "august 3"
+        },
+        {
+          "tags": [],
+          "title": "The Great Gatsby",
+          "author": "F. Scott Fitzgerald",
+          "excerpt": "Set in the Jazz Age of the 1920s, the novel is narrated by Nick Carraway, who moves to Long Island and becomes entangled in the lives of his wealthy neighbor, Jay Gatsby, and his cousin, Daisy Buchanan. It delves into themes of decadence, idealism, and the American Dream.",
+          "image": "https://st.depositphotos.com/2931363/3703/i/450/depositphotos_37034497-stock-photo-young-black-man-smiling-at.jpg",
+          "date": "2 January ",
+          "readingTime": "5 mins"
+        },
+        {
+          "tags": [],
+          "title": "1984",
+          "author": "George Orwell",
+          "excerpt": "In a dystopian future, the Party controls everything in Oceania, where Winston Smith works rewriting history to align with Party propaganda. Winston rebels by starting a forbidden affair and questioning the totalitarian regime, leading to a chilling exploration of surveillance, propaganda, and individual freedom",
+          "image": "https://www.shutterstock.com/image-photo/pericles-funeral-oration-on-old-260nw-1598220667.jpg",
+          "date": "12 june",
+          "readingTime": "2 hours"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Testimonials.tsx",
+      "arrows": true,
+      "slides": [
+        {
+          "content": {
+            "description": "As a student navigating through my own aspirations and challenges, 'Becoming' resonated with me on many levels. Michelle Obama's candid storytelling and reflections on her journey from South Side Chicago to the White House are both inspiring and relatable",
+            "avatar": "https://m.media-amazon.com/images/I/81jfDTSLQ9L._AC_UF1000,1000_QL80_.jpg",
+            "name": "Michelle"
+          }
+        },
+        {
+          "content": {
+            "name": "Paulo Coelho",
+            "description": "Reading 'The Alchemist' was a transformative experience for me as a student. Coelho's storytelling is captivating, and the lessons woven throughout the narrative are profound. The idea of pursuing one's dreams, overcoming obstacles, and finding wisdom in unexpected places deeply resonated with me. Santiago's journey reminded me of the importance of perseverance and listening to the whispers of my own heart",
+            "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThNT3IonnJioJrWLy9iqTxrZTMoQtJPAnxdxuLRXMlZM-cFdv72R5fswawpK8mzqJRsNYvPQ73ZNm2ViE5Tlp1fyWEUo-fysnvKWIKVQ"
+          }
+        },
+        {
+          "content": {
+            "name": "Tara Westover",
+            "description": "Educated' left a profound impact on me as a student. Westover's resilience and determination to educate herself against all odds are incredibly inspiring. Her journey from a sheltered upbringing to academic success is a testament to the transformative power of education and self-discovery. The memoir's raw honesty and reflection on family relationships challenged me to consider the value of education in shaping one's identity and future",
+            "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnzR0zZOvlpVAbwQRPK2hIcKW7cyemhKcsTNJvBqASgMdJ_iMA"
+          }
+        }
+      ],
+      "title": "College students Feedbacks "
+    },
+    {
+      "__resolveType": "site/sections/Faq.tsx",
+      "title": "frequently asked questions ",
+      "description": "how these blogs will help you out ",
+      "questions": [
+        {
+          "title": "What topics do you cover on your student blog?",
+          "answer": "<p>Explore the Student Blog: Your Source for Insightful Articles on Academics, Lifestyle, and Career Tips</p>"
+        },
+        {
+          "title": "How can I contribute to the student blog?",
+          "answer": "<p>Share Your Voice: Become a Contributor and Share Your Student Experience with Our Community.</p>"
+        },
+        {
+          "title": "Are there opportunities for collaboration or guest blogging?",
+          "answer": "<p>Collaborate with Us: Partner with Students and Professionals to Showcase Diverse Perspectives.</p>"
+        },
+        {
+          "title": "How can I stay updated with new blog posts and events?",
+          "answer": "<p>Stay Informed: Subscribe to Our Newsletter for the Latest Articles, Events, and Opportunities.</p>"
+        },
+        {
+          "title": "Can I advertise or promote my student-related initiatives on your blog?",
+          "answer": "<p>Showcase Your Initiative: Feature Your Student Projects and Events on Our Platform for Greater Reach</p>"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Footer.tsx",
+      "links": [],
+      "bottomLinks": [],
+      "social": [],
+      "subscribe": {
+        "title": "Suscribe to our Blogs and Boooks",
+        "description": "Help reach out to large community"
+      },
+      "logo": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11593/b5a87086-a8a3-44c1-8dc5-956d694a3a1a"
+      }
     }
+  ],
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
   }
+}
